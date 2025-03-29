@@ -1,0 +1,5 @@
+[toolchain]
+# Issues with Rust Analyzer after this version
+channel = "nightly-2024-10-06"
+targets = [ "thumbv6m-none-eabi" ]
+components = [ "rustfmt", "clippy", "rust-analyzer" ]
